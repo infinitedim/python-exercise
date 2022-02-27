@@ -76,3 +76,4 @@ print(course.upper()) # uppercase character
 print(course.lower()) # lowercade character
 print(course.find('B')) # for print indexes of character
 print(course.replace('Beginners', 'Absolutely Beginners')) # for replace old string to new string
+  
