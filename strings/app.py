@@ -35,7 +35,7 @@ exclude last character
 '''
 
 # square brackets example
-
+'''
 course = "Python's for Beginners"
 print(course[0])
 
@@ -44,3 +44,35 @@ print(course[0:-1]) # will be print ython's for Beginner
 
 name = "John doe"
 print(name[2:-2]) # will be print hn d
+'''
+
+'''
+# concat string
+
+first = 'John'
+last = 'Doe'
+
+messege = first + ' ['+ last +'] is a coder'
+
+print(messege)
+
+
+# formatted string
+msg = f'{ first } [{ last }] is a coder'
+
+print(msg)
+'''
+
+#### Build in function for string ####
+# len() - for calculate indexes on string 
+# example
+course = "Python's for Beginners"
+
+print(len(course)) # will be print 22
+
+# more example for build in function string
+
+print(course.upper()) # uppercase character
+print(course.lower()) # lowercade character
+print(course.find('B')) # for print indexes of character
+print(course.replace('Beginners', 'Absolutely Beginners')) # for replace old string to new string
