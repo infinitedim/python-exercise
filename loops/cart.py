@@ -1,7 +1,7 @@
 import math
-prices = [10,20,30]
+prices = [10, 20, 30]
 
-total = 
+total = 0
 for price in prices:
-  total += price
+    total += price
 print(f"Total: {total}")
